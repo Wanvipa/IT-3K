@@ -1,0 +1,83 @@
+<template lang="html">
+  <div>
+      <div id="header">
+        <span class="tital" @click="home">
+        <i class="fa fa-home"></i></span>
+        <h6 class="subtitle is-6">IT3K-13th : Night Life 2016</h6>
+      </div>
+
+    <div class="column">
+      <h3 class="tital subtitle is-3"></h3>
+      </div>
+      <div class="column" v-show="!inputData">
+      <cards :list="list"  v-for="list in lists" :score-sports="scoreSports" ></cards>
+      </div>
+    <div class="column"></div>
+
+  </div>
+
+</template>
+<script>
+import Cards from './Cards'
+// import fromInput from './Add'
+export default {
+  props: ['lists', 'scoreSports'],
+  data () {
+    return {
+      inputData: false
+    }
+  },
+  computed: {},
+  mounted () {},
+  methods: {
+    home () {
+      window.scrollTo(0, 0)
+    }
+  },
+  components: {
+    Cards
+    // fromInput
+  }
+}
+</script>
+
+<style lang="css">
+h6{
+  margin-top: -50px;
+  font-size: 1.5em !important;
+  text-align: center;
+  padding-left: 35px;
+  width: 100%;
+  color: white !important;
+}
+h3 {
+  text-align: center;
+  margin-top: 55px;
+}
+.tital{
+  color: #fff;
+  font-size: 40px;
+  /*text-align: center;*/
+}
+.tap{
+  width: 100%;
+}
+#header {
+  position: fixed;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 60px;
+  display: inline-block;
+  background:#ef5350 ;
+  padding: 10px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 0 5px #000;
+  z-index: 999;
+}
+
+
+
+</style>
