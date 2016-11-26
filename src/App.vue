@@ -53,6 +53,7 @@ export default {
         sport.sport = item.sport
         sport.total1 = item.total1
         sport.total2 = item.total2
+        sport.map = item.map
       }
     })
     ScoreSports.on('child_added', function (snapshot) {
@@ -75,14 +76,12 @@ export default {
 }
 </script>
 <style lang="css">
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
-@import url('https://fonts.googleapis.com/css?family=Kanit|PT+Sans');
-body {
-  /*background-color:#FD671A;*/
-  /*background-image:url('./6.jpg');*/
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'Kanit', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Kanit&subset=thai');
 
+body{
+  background-color:#f5f5f5;
+  /*background-image:url('./41381-O2Y4RC.jpg');*/
+  font-family: 'Kanit', sans-serif;
 }
 
 </style>

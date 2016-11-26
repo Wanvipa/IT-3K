@@ -3,7 +3,7 @@
       <div id="header">
         <span class="tital" @click="home">
         <i class="fa fa-home"></i></span>
-        <h6 class="subtitle is-6">IT3K-13th : Night Life 2016</h6>
+        <h6 class="subtitle is-6">&nbsp;IT3K'14th : Once Upon A Time</h6>
       </div>
 
     <div class="column">
@@ -13,7 +13,6 @@
       <cards :list="list"  v-for="list in lists" :score-sports="scoreSports" ></cards>
       </div>
     <div class="column"></div>
-
   </div>
 
 </template>
@@ -43,8 +42,8 @@ export default {
 
 <style lang="css">
 h6{
-  margin-top: -50px;
-  font-size: 1.5em !important;
+  margin-top: -45px;
+  font-size: 1.3em !important;
   text-align: center;
   padding-left: 35px;
   width: 100%;
