@@ -51,7 +51,7 @@ h6{
 }
 h3 {
   text-align: center;
-  margin-top: 55px;
+  margin-top: 0px;
 }
 .tital{
   color: #fff;
@@ -62,7 +62,7 @@ h3 {
   width: 100%;
 }
 #header {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;

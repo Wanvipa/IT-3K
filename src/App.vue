@@ -77,10 +77,8 @@ export default {
 </script>
 <style lang="css">
 @import url('https://fonts.googleapis.com/css?family=Kanit&subset=thai');
-
 body{
   background-color:#f5f5f5;
-  /*background-image:url('./41381-O2Y4RC.jpg');*/
   font-family: 'Kanit', sans-serif;
 }
 
