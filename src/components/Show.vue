@@ -2,8 +2,8 @@
   <div>
       <div id="header">
         <span class="tital" @click="home">
-        <i class="fa fa-home"></i></span>
-        <h6 class="subtitle is-6">&nbsp;IT3K'14th : Once Upon A Time</h6>
+        <i class="fa fa-home"></i><img src="./Banner.png" class="banner" alt=""></span>
+        <!-- <h6 class="subtitle is-6">&nbsp;IT3K'14th : Once Upon A Time</h6> -->
       </div>
 
     <div class="column">
@@ -18,7 +18,6 @@
 </template>
 <script>
 import Cards from './Cards'
-// import fromInput from './Add'
 export default {
   props: ['lists', 'scoreSports'],
   data () {
@@ -41,42 +40,4 @@ export default {
 </script>
 
 <style lang="css">
-h6{
-  margin-top: -45px;
-  font-size: 1.3em !important;
-  text-align: center;
-  padding-left: 35px;
-  width: 100%;
-  color: white !important;
-}
-h3 {
-  text-align: center;
-  margin-top: 0px;
-}
-.tital{
-  color: #fff;
-  font-size: 40px;
-  /*text-align: center;*/
-}
-.tap{
-  width: 100%;
-}
-#header {
-  /*position: fixed;*/
-  width: 100%;
-  margin-left: 0%;
-  margin-right: 0%;
-  height: 60px;
-  display: inline-block;
-  background:#ef5350 ;
-  padding: 10px;
-  font-variant: small-caps;
-  font-weight: bold;
-  color: #fff;
-  box-shadow: 0 0 5px #000;
-  z-index: 999;
-}
-
-
-
 </style>

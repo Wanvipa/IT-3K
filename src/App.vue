@@ -80,6 +80,85 @@ export default {
 body{
   background-color:#f5f5f5;
   font-family: 'Kanit', sans-serif;
+    /*font-family: 'boonjotregular';*/
 }
+.font-th {
+  font-family: 'rsubold' !important;
+}
+
+@font-face {
+    font-family: 'rsubold';
+    src: url('./../static/rsu_bold-webfont.woff2') format('woff2'),
+         url('./../static/rsu_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.app {
+  margin-bottom: 10px;
+}
+h1{
+  color: #d32f2f !important;
+  display: inline-block;
+
+}
+.width-card {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.textred{
+  color: #d32f2f !important;
+  font-size: 60px !important;
+
+}
+.sizedate{
+  font-size: 13px !important;
+  margin-top: auto;
+}
+
+.tapstatus{
+  margin-left: -20px;
+}
+h6{
+  margin-top: -45px;
+  font-size: 1.3em !important;
+  text-align: center;
+  padding-left: 35px;
+  width: 100%;
+  color: white !important;
+}
+h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+.tital{
+  color: #fff;
+  font-size: 40px;
+  /*text-align: center;*/
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 60px;
+  display: inline-block;
+  background:#ef5350 ;
+  padding: 10px;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 0 0 5px #000;
+  z-index: 999;
+}
+.banner{
+  margin-top:0px;
+  position: fixed;
+  margin-left: -30px;
+}
+
 
 </style>
