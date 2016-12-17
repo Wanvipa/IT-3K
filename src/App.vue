@@ -80,10 +80,9 @@ export default {
 body{
   background-color:#f5f5f5;
   font-family: 'Kanit', sans-serif;
-    /*font-family: 'boonjotregular';*/
 }
-.font-th {
-  font-family: 'rsubold' !important;
+/*.font-th {
+  font-family: 'sans-serif' !important;
 }
 
 @font-face {
@@ -92,7 +91,7 @@ body{
          url('./../static/rsu_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 .app {
   margin-bottom: 10px;
@@ -114,12 +113,13 @@ h1{
 
 }
 .sizedate{
-  font-size: 13px !important;
+  font-size: 12px !important;
   margin-top: auto;
+  color: #757575;
 }
 
 .tapstatus{
-  margin-left: -20px;
+  margin-left: -10px;
 }
 h6{
   margin-top: -45px;
@@ -157,8 +157,12 @@ h3 {
 .banner{
   margin-top:0px;
   position: fixed;
-  margin-left: -30px;
+  margin-left: 5px;
 }
-
-
+.textsport{
+  color: #2c3e50;
+}
+.location{
+  color: red !important;
+}
 </style>
