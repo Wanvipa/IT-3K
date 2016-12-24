@@ -1,8 +1,9 @@
 <template lang="html">
   <div>
     <div id="header">
-      <span class="tital" @click="home">
-        <img src="./Banner.png" class="banner" alt=""></span>
+      <span class="tital" @click="home" >
+        <img src="./Banner.png" class="banner" alt="">
+      </span>
     </div>
     <div class="column">
       <h3 class="tital subtitle is-3"></h3>
